@@ -1,0 +1,34 @@
+.bottom-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-box_child{
+  background-color:white;
+  width: 650px;
+  height: 100px;
+  display:flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin:20px 0px; /*padding은 안에 있는 애들과의 거리
+  margin은 다른 div와의 거리 조정*/
+}
+.bottom-box_child:nth-child(1){
+  padding-top: 15px;
+}
+.bottom-box_column i{
+  color:red;
+  position: relative;
+  top:10px;
+  padding-right: 20px;
+}
+.down{
+  opacity:0.7;
+  padding:5px 0px;
+}
+.bottom-box_column{
+  padding-left: 20px;
+}
+.upper{
+  padding:10px 0px;
+}

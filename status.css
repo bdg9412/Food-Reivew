@@ -1,0 +1,17 @@
+.statusbar{
+    position: fixed;
+    bottom:0; /*포지션 fixed로 위치가 고정되어 
+    스크롤 해도 움직이지 않게 하였다. bottom:0 으로 
+    항상 화면 하단에 위치하도록 하였다.*/
+    background-color: white;
+    height: 80px;
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.statusbar_column_red i{
+    color: red;
+}

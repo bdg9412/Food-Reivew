@@ -1,0 +1,56 @@
+.homecooking{
+    border-radius: 15px;
+    display:flex;
+    width: 300px;
+    height:300px;
+    align-items: center;
+    justify-content: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+.pizza{
+    border-radius: 15px;
+    display:flex;
+    width: 300px;
+    height:300px;
+    align-items: center;
+    justify-content: center;
+}
+.healthyfood{
+    border-radius: 15px;
+    display:flex;
+    width: 300px;
+    height:300px;
+    align-items: center;
+    justify-content: center;
+}
+.chicken{
+    border-radius: 15px;
+    display:flex;
+    width: 300px;
+    height:300px;
+    align-items: center;
+    justify-content: center;
+}
+.middle-column__box{
+    font-size:28px;
+    font-weight: 50px;
+}
+.middle-column__box__one{
+    display: flex;
+    justify-content: space-between;
+}
+.middle-coulmn__box__two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.middle-text{
+    color:white;
+}
+.middle-column__text{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
